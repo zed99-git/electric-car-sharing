@@ -1,5 +1,7 @@
 # electric-car-sharing
 CNAD Assignment1
+github link:
+https://github.com/zed99-git/electric-car-sharing
 
 go get -u github.com/go-sql-driver/mysql
 go get -u github.com/gorilla/mux
