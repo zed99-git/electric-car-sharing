@@ -9,7 +9,7 @@ import (
 
 // Initialize and return database connection
 func ConnectDB() (*sql.DB, error) {
-	db, err := sql.Open("mysql", "root:#17436592a@tcp(127.0.0.1:3306)/my_db")
+	db, err := sql.Open("mysql", "root:#17436592a@tcp(127.0.0.1:3306)/electric_car_sharing")
 	if err != nil {
 		log.Printf("Error connecting to database: %v", err)
 		return nil, err
